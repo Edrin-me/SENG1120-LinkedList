@@ -26,6 +26,7 @@ public:
 	void setData(dataType value);
 
 private:
+	// Private member variables
 	Node* prev;
 	Node* next;
 	dataType data;
